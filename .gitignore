@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+public/bundle.js # If you have a bundled file outside of dist/build
+.cache/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.log
+*.swp # Vim
+*.swo # Vim
+.DS_Store # Mac OS
+.AppleDouble # Mac OS
+.LSOverride # Mac OS
+
+# Temporary files and directories
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache*
+
+# Package manager lock files (optional, but recommended to include)
+yarn-error.log
+
+# Texture Cache (if you have one)
+textures/cache/
+
+# Debug files
+*.map # Source maps
+
+#webpack
+webpack.config.js
+
+#JSON context
+launch.JSON
+package-lock.JSON
+package.JSON
+
+
+#min.js
+three.min.js
